@@ -1,0 +1,103 @@
+/*{
+	box-sizing: border-box;
+}*/
+body{
+	font-family: Tahoma, sans-serif;
+	line-height: 1.5;
+	color: #333;
+}
+.main{
+	text-align: center;
+}
+.header{
+	text-align: center;
+	font-size: 24px;
+	padding: 20px;
+}
+.header span{
+	font-weight: 900;
+	display: block;
+}
+.header strong{
+	font-weight: 900;
+	text-transform: uppercase;
+}
+.section{
+	padding: 30px 30px 30px 30px;
+}
+.video, .form{
+	vertical-align: top;
+	display: inline-block;
+}
+.form{
+	align-items: center;
+	text-align: center;
+	height: 407px;
+	width: 350px;
+	border: solid 4px blue;
+	font-weight: 900;
+}
+.form p{
+	margin:15px;
+	font-size: 30px;
+	text-shadow: 4px;
+	text-decoration-line: line-through;
+}
+.form input{
+	text-align: center;
+	margin: 14px;
+	border: 1px solid #333;
+	width: 80%;
+	height: 40px;
+	font-size: 10px;
+	font-weight: 900;
+}
+.form button{
+	margin: 14px;
+	font-size: 18px;
+	font-weight: 900;
+	background-color: red;
+	width: 200px;
+	height: 40px;
+	border: none;
+}
+.pict{
+	text-align:center;
+}
+.col{
+	display: inline-block;
+	text-align: center;
+	margin-top: 10px; 
+	margin:10px 100px;
+}
+.head2{
+	text-align: center;
+}
+.head2 p{
+	font-size:50px;
+	font-weight: 900;
+}
+.but2{
+	margin:10px auto;
+	text-align: center;
+	width: 200px;
+	height: 40px;
+	font-weight: 900;
+}
+#ok{
+	display: none;
+	width: 300px;
+    height: 50px;
+    text-align: center;
+    padding: 15px;
+    border: 3px solid #0000cc;
+    border-radius: 10px;
+    color: #0000cc;
+    position: absolute;
+	position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+}
